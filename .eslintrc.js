@@ -6,5 +6,10 @@ module.exports = {
   ],
   "env": {
     "browser": true
+  },
+  "rules": {
+    "new-cap": ["error", {
+      "capIsNewExceptions": ["Map", "List"]
+    }]
   }
 };
