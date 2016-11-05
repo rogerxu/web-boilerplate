@@ -1,0 +1,17 @@
+{
+  "name": "web-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "url": "https://github.com/rogerxu/web-boilerplate.git",
+    "type": "git"
+  },
+  "author": "Roger Xu <roger.xu.2007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^0.11.4"
+  }
+}
