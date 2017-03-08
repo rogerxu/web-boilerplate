@@ -4,9 +4,13 @@ import gulp from 'gulp';
 import babel from 'gulp-babel';
 import connect from 'gulp-connect';
 
+const paths = {
+  static: 'src'
+};
+
 gulp.task('connect', () => {
   connect.server({
-    root: 'src',
+    root: paths.static,
     livereload: false,
   });
 });

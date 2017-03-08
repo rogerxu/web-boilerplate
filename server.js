@@ -1,12 +1,17 @@
-import connect from 'connect';
-import http from 'http';
-import serveStatic from 'serve-static';
+var connect = require('connect');
+var http = require('http');
+var serveStatic = require('serve-static');
 
-const app = connect();
+var paths = {
+  static: 'src',
+};
 
-const serve = serveStatic('src', {
-  index: ['index.html']
+var app = connect();
+
+var serve = serveStatic(paths.static, {
+  index: ['index.html'],
 });
 app.use(serve);
 
-app.listen(8080);
+// create node.js http server and listen on port
+http.createServer(app).listen(8080);
