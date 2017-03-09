@@ -11,7 +11,7 @@ const app = connect();
 const serve = serveStatic('src', {
   index: ['index.html']
 });
-app.use(serve);
+app.use('/app', serve);
 
 // create node.js http server and listen on port
 http.createServer(app).listen(8080);
