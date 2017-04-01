@@ -1,24 +1,5 @@
-import 'babel-polyfill';
-
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
-import { combineReducers } from 'redux-immutable';
-import { Provider } from 'react-redux';
-import dogReducer from './reducers/dog-reducer';
-import BarkMessage from './containers/bark-message';
-import BarkButton from './containers/bark-button';
 
-const store = createStore(combineReducers({
-  dog: dogReducer,
-}));
+const App = () => <h1>Hello React!</h1>;
 
-ReactDOM.render(
-  <Provider store={store}>
-    <div>
-      <BarkMessage />
-      <BarkButton />
-    </div>
-  </Provider>,
-  document.querySelector('.app')
-);
+export default App;
