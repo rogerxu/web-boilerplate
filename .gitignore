@@ -2,6 +2,9 @@
 lib
 dist/client-bundle.*
 
+# OS
+.DS_Store
+
 # Logs
 logs
 *.log
