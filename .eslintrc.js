@@ -5,7 +5,8 @@ module.exports = {
     "compat"
   ],
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "rules": {
     "compat/compat": "error",
