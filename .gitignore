@@ -1,6 +1,6 @@
 # build
 lib
-dist/client-bundle.*
+dist
 
 # OS
 .DS_Store

@@ -17,5 +17,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(WEB_PORT, () => {
-  console.log(`Server running on port ${WEB_PORT} ${isProd ? '(production)' : '(development)'}.`);
+  console.log(`Server running on port ${WEB_PORT} ${isProd ? '(production)' : '(development).\nKeep "yarn dev:wds" running in another terminal'}.`);
 });
