@@ -14,8 +14,6 @@ module.exports = {
   },
   "rules": {
     "compat/compat": "error",
-    "new-cap": ["error", {
-      "capIsNewExceptions": ["Map", "List"]
-    }]
+    "max-len": "warn"
   }
 };

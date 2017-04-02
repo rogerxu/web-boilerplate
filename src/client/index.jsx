@@ -1,5 +1,7 @@
 /* eslint-disable no-underscore-dangle */
 import 'babel-polyfill';
+import jQuery from 'jquery';
+import Tether from 'tether';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -13,6 +15,11 @@ import App from './app';
 import helloReducer from './reducer/hello';
 import { APP_CONTAINER_SELECTOR } from '../shared/config';
 import { isProd } from '../shared/util';
+
+// import bootstrap
+window.jQuery = jQuery;
+window.Tether = Tether;
+require('bootstrap');
 
 let reduxDevToolsExtCompose = null;
 if (!isProd) {

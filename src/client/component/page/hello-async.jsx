@@ -3,10 +3,17 @@ import React from 'react';
 import HelloAsyncButton from '../../container/hello-async-button';
 import MessageAsync from '../../container/message-async';
 
+const title = 'Async Hello Page';
+
 const HelloAsyncPage = () =>
-  <div>
-    <MessageAsync />
-    <HelloAsyncButton />
+  <div className="container mt-4">
+    <div className="row">
+      <div className="col-12">
+        <h1>{title}</h1>
+        <MessageAsync />
+        <HelloAsyncButton />
+      </div>
+    </div>
   </div>;
 
 export default HelloAsyncPage;
