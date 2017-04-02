@@ -1,6 +1,7 @@
 import React, { PropTypes } from 'react';
 
-const Message = ({ message }) => <div>{message}</div>;
+const Message = ({ message }) =>
+  <p>{message}</p>;
 
 Message.propTypes = {
   message: PropTypes.string.isRequired,
