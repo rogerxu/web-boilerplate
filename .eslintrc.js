@@ -9,6 +9,9 @@ module.exports = {
     "node": true,
     "jest": true
   },
+  "settings": {
+    "polyfills": ["fetch"]
+  },
   "rules": {
     "compat/compat": "error",
     "new-cap": ["error", {
