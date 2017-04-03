@@ -1,5 +1,12 @@
 # web-boilerplate
 
-[![Build Status](https://img.shields.io/travis/rogerxu/web-boilerplate.svg?style=flat-square)](https://travis-ci.org/rogerxu/web-boilerplate) [![Coverage Status](https://img.shields.io/coveralls/rogerxu/web-boilerplate.svg?style=flat-square)](https://coveralls.io/github/rogerxu/web-boilerplate?branch=master)
+[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 Web application boilerplate
+
+
+[travis-image]: https://img.shields.io/travis/rogerxu/web-boilerplate.svg?style=flat-square
+[travis-url]: https://travis-ci.org/rogerxu/web-boilerplate
+
+[coveralls-image]: https://img.shields.io/coveralls/rogerxu/web-boilerplate.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/github/rogerxu/web-boilerplate?branch=master
