@@ -18,7 +18,7 @@ export default {
     rules: [
       {
         test: /\.jsx?$/,
-        use: 'babel-loader',
+        use: ['babel-loader'],
         exclude: /node_modules/,
       },
     ],
@@ -32,7 +32,6 @@ export default {
     hot: true,
   },
   plugins: [
-    new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
