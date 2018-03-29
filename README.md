@@ -10,3 +10,5 @@ Web application boilerplate
 
 [coveralls-image]: https://img.shields.io/coveralls/rogerxu/web-boilerplate.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/github/rogerxu/web-boilerplate?branch=master
+
+Learn from [verekia/js-stack-from-scratch: 🛠️⚡ Step-by-step tutorial to build a modern JavaScript stack.](https://github.com/verekia/js-stack-from-scratch)
